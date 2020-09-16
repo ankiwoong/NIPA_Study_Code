@@ -19,7 +19,9 @@ def main():
     주식 데이터 불러오기
     """
     df = pd.read_csv(
-        "D:\\Code\\Study\\NIPA_Study_Code\\주식 데이터의 이해와 분석\\data\\stock.csv"
+        "D:\\Code\\Study\\NIPA_Study_Code\\주식 데이터의 이해와 분석\\data\\stock.csv",
+        index_col=0,
+        parse_dates=True,
     )
 
     # 데이터 프레임 기본 형 출력
