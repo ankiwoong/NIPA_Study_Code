@@ -52,7 +52,7 @@ print(dataframe)
 print()
 
 # 새로운 컬럼추가
-dataframe["전화번호"] = np.nan
+dataframe["전화번호"] = np.nan  # nan = not a number
 dataframe.loc[0, "전화번호"] = "01012341234"
 
 print(len(dataframe))
