@@ -17,3 +17,6 @@ print(B, "\n")
 # 아래에 다양한 연산을 자유롭게 적용해보세요.
 print(A + B, "\n")
 print(A.add(B, fill_value=0), "\n")
+print(A.sub(B, fill_value=0), "\n")
+print(A.mul(B, fill_value=0), "\n")
+print(A.div(B, fill_value=0), "\n")
