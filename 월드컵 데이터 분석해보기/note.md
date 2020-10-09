@@ -46,3 +46,32 @@
 | QualifiedTeams | 참가 국가 수 | 13         |
 | MatchesPlayed  | 총 경기 수   | 18         |
 | Attendance     | 총 관중      | 590549     |
+
+---
+
+실습에서 주어지는 월드컵 데이터 셋 WorldCupMatches.csv의 칼럼은 다음과 같습니다.
+
+출처 : https://www.kaggle.com/abecklas/fifa-world-cup
+
+| 변수명               | 의미                             | 예시                       |
+| -------------------- | -------------------------------- | -------------------------- |
+| Year                 | 경기가 진행된 연도               | 1930                       |
+| Datetime             | 경기 시작 시간                   | 13 Jul 1930 - 15:00        |
+| Stage                | 스테이지(조별리그, 16강, 8강 등) | Group 1                    |
+| Stadium              | 경기장                           | Pocitos                    |
+| City                 | 도시                             | Montevideo                 |
+| Home Team Name       | 홈 팀 국가 이름                  | France                     |
+| Home Team Goals      | 홈 팀 득점 수                    | 4                          |
+| Away Team Goals      | 원정 팀 득점 수                  | 1                          |
+| Away Team Name       | 원정 팀 국가 이름                | Mexico                     |
+| Win conditions       | 승리 상황                        | Italy win after extra time |
+| Attendance           | 관중 수                          | 4444                       |
+| Half-time Home Goals | 홈 팀 전반전 득점 수             | 3                          |
+| Half-time Away Goals | 원정 팀 전반전 득점 수           | 0                          |
+| Referee              | 주심의 이름                      | LOMBARDI Domingo (URU)     |
+| Assistant 1          | 제 1 부심(선심)의 이름           | CRISTOPHE Henry (BEL)      |
+| Assistant 2          | 제 2 부심(선심)의 이름           | REGO Gilberto (BRA)        |
+| RoundID              | 라운드의 고유 ID                 | 201                        |
+| MatchID              | 경기의 고유 ID                   | 1096                       |
+| Home Team Initials   | 홈 팀의 세 글자 이니셜           | FRA                        |
+| Away Team Initials   | 원정 팀의 세 글자 이니셜         | MEX                        |
