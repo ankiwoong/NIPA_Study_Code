@@ -27,3 +27,22 @@
 
 주제 선정 단계에서 세운 가설을 numpy, pandas 등으로 데이터를 연산, 가공하여 가설을 입증하거나 원하는 정보를 얻어내는 것을 구현 하는 단계입니다.
 얻어낸 정보를 효과적으로 보여주기 위해 시각화를 하기도 합니다.
+
+---
+
+실습에서 주어지는 월드컵 데이터 셋 WorldCups.csv의 칼럼은 다음과 같습니다.
+
+출처 : https://www.kaggle.com/abecklas/fifa-world-cup
+
+| 변수명         | 의미         | 예시       |
+| -------------- | ------------ | ---------- |
+| Year           | 개최 연도    | 1930       |
+| Country        | 개최 국가    | Uruguay    |
+| Winner         | 우승 국가    | Uruguay    |
+| Runners-Up     | 준우승 국가  | Argentina  |
+| Third          | 3위 국가     | USA        |
+| Fourth         | 4위 국가     | Yugoslavia |
+| GoalsScored    | 총 득점 수   | 70         |
+| QualifiedTeams | 참가 국가 수 | 13         |
+| MatchesPlayed  | 총 경기 수   | 18         |
+| Attendance     | 총 관중      | 590549     |
