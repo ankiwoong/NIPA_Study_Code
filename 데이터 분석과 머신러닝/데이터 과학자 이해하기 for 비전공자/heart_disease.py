@@ -183,14 +183,17 @@ def is_in_features(features):
     return set(features).issubset(columns)
 
 
-def check_3_features(features):
+def check_features(features):
     in_features = is_in_features(features)
     if not in_features:
         print("Error!! 요인(feature)의 이름을 올바르게 작성했는지 확인해주세요. 철자가 틀렸을 수도 있습니다.")
         return None
+    if "diagnosis" in features:
+        print("Error!! `diagnosis`는 우리가 예측하고자 하는 목표입니다. Input에서 제외하고 다시 실행해주세요.")
+        return None
     features = list(set(features))
-    if len(features) != 3:
-        print("Error!! 선택해야 하는 요인의 수는 3개입니다.")
+    if len(features) > 13:
+        print("Error!! 13개 이하의 요인을 입력해주세요.")
         return None
     heart = load_dataset()
     score = scoring_columns(heart, features)
