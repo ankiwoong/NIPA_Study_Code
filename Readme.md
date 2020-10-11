@@ -45,3 +45,11 @@
 ### 월드컵 데이터 분석해보기
 
 - 월드컵 경기 데이터의 다양한 속성들을 알아보고, 그래프를 출력해보는 실습입니다. 본 장의 실습들을 통해 배운 내용들을 정리하고, 데이터 분석과 시각화의 결과를 직접 확인해봅시다!
+
+### 실력 확인 테스트
+
+- 실력 확인 테스트 - Quiz 포함
+
+<img src="https://github.com/ankiwoong/NIPA_Study_Code/blob/master/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D/%EC%9D%B4%EC%88%98%EC%A6%9D/%EC%9D%B4%EC%88%98%EC%A6%9D.jpg?raw=true">
+
+---
