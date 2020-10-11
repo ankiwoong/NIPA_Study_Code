@@ -51,3 +51,21 @@
 | fare     | 티켓 요금                                              |
 | cabin    | 선실 번호                                              |
 | embarked | 탑승한 곳. C(Cherbourg), Q(Queenstown), S(Southampton) |
+
+---
+
+### 데이터 설명
+
+| 컬럼명   | 설명                                                   |
+| -------- | ------------------------------------------------------ |
+| pclass   | 좌석 클래스. 1(1등석), 2(2등석), 3(3등석)              |
+| survived | 생존 여부. 1(생존), 0(사망)                            |
+| name     | 이름                                                   |
+| sex      | 성별. female(여성), male(남성)                         |
+| age      | 나이                                                   |
+| sibsp    | 함께 탑승한 형제 또는 배우자의 수                      |
+| parch    | 함께 탑승한 부모 또는 자녀의 수                        |
+| ticket   | 티켓 번호                                              |
+| fare     | 티켓 요금                                              |
+| cabin    | 선실 번호                                              |
+| embarked | 탑승한 곳. C(Cherbourg), Q(Queenstown), S(Southampton) |
